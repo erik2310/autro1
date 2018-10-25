@@ -1,0 +1,23 @@
+{
+  "name": "autro",
+  "version": "1.0.0",
+  "description": "Login Authentication",
+  "main": "index.js",
+  "dependencies": {
+    "all": "0.0.0",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.3.4",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app",
+    "watch": "nodemon app && mongod"
+  },
+  "author": "SOVSEN",
+  "license": "MIT"
+}
